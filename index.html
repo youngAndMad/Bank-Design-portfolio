@@ -15,15 +15,33 @@
 <body>
 
     <header>
-        <nav>
-            <ul>
-                <img class="menu_item" src="public/logo.png">
-                <li><a class="menu_item">Design</a></li>
-                <li><a class="menu_item">Web Design</a></li>
-                <li><a class="menu_item">Graphic Design</a></li>
-                <li><a class="menu_item">Print Design</a></li>
-                <li><a class="menu_item">Video Design</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <img src="public/logo.png">
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div id="id">
+
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="menu_item" aria-current="page" href="#">Design</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="menu_item" href="#">Web Design</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="menu_item" href="#">Graphic Design</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" id="menu_item" href="#" t>Print Design</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" id="menu_item" href="#">Video Design</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
         </nav>
     </header>
 
@@ -33,18 +51,39 @@
         <div id="container">
 
             <div id="promo">
+                <div id="promo_texts">
+                    <h1 id="we_are">WE ARE</h1>
+                    <h1 id="studio_banx">STUDIO BANX</h1>
+                    <h3 id="promo_texts_last">A CREATIVE WEB & PRINT DIGITAL AGENCY BUILT ON METHOD AND CREATIVE JUICES
+                    </h3>
+                </div>
+                <hr id="promo_hr">
+                <div id="promo_btns">
+                    <button id="see_our_work">
+                        <a style="color:white">
+                            See our work
+                        </a>
+                    </button>
 
-
+                    <button id="meet_the_team">
+                        <a style="color:white;font-family: Arial, Helvetica, sans-serif;">
+                            meet the team
+                        </a>
+                    </button>
+                </div>
             </div>
 
-            <div id="our_works">
-                <a id="check_out">CHECK OUT</a>
-                <a id="our_works">OUR WORKS</a>
-                <hr>
-                <div>
-                    <div class="card-group">
-                        <div class="card">
-                            <img src="public/city-1.jpg" style="border-radius: 50%;" class="card-img-top" alt="...">
+
+            <div class="our_works">
+                <div id="our_works_texts">
+                    <h1 id="check_out">CHECK OUT</h1>
+                    <h1 id="our_worx">OUR WORX</h1>
+                </div>
+                <div style="height: auto;width: 1000px;margin-left: 15%;">
+                    <div class="card-group" style="border: none;">
+                        <div class="card" style="background-color:  #ebebeb;border:none">
+                            <img src="public/city-1.jpg" style="border-radius: 50%; border: 10px solid white; "
+                                class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Desire</h5>
                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -52,8 +91,9 @@
                                     congue magna in pharetra rutrum.</p>
                             </div>
                         </div>
-                        <div class="card">
-                            <img src="public/city-2.jpg" style="border-radius: 50%;" class="card-img-top" alt="...">
+                        <div class="card" style="background-color:  #ebebeb;border:none">
+                            <img src="public/city-2.jpg" style="border-radius: 50%;border: 10px solid white;"
+                                class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Aspiration</h5>
                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -61,8 +101,9 @@
                                     congue magna in pharetra rutrum.</p>
                             </div>
                         </div>
-                        <div class="card">
-                            <img src="public/city-3.jpg" style="border-radius: 50%;" class="card-img-top" alt="...">
+                        <div class="card" style="background-color:  #ebebeb;border:none">
+                            <img src="public/city-3.jpg" style="border-radius: 50%;border: 10px solid white;"
+                                class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Design</h5>
                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -70,8 +111,9 @@
                                     congue magna in pharetra rutrum.</p>
                             </div>
                         </div>
-                        <div class="card">
-                            <img src="public/city-4.jpg" style="border-radius: 50%;" class="card-img-top" alt="...">
+                        <div class="card" style="background-color:  #ebebeb;border:none">
+                            <img src="public/city-4.jpg" style="border-radius: 50%;border: 10px solid white;"
+                                class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Lust</h5>
                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -83,6 +125,61 @@
                 </div>
 
             </div>
+
+            <div>
+                <a id="what_makes_us_so_awasome">What makes us so awesome</a>
+                <div class="container text-center" style="height: auto;width: 1000px;">
+                    <div class="row">
+                        <div class="col">
+                            <a class="custom_text" style=" text-decoration: none;">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Pellentesque
+                                congue magna in pharetra rutrum.
+                            </a>
+                            <p></p>
+
+                            <button class="view_more">
+                                <a class="view_more_text">
+                                    View more
+                                </a>
+                            </button>
+                        </div>
+                        <div class="col order-5">
+                            <a class="custom_text" style=" text-decoration: none;">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Pellentesque
+                                congue magna in pharetra rutrum.
+                            </a>
+                            <p></p>
+
+                            <button class="view_more" style=" text-decoration: none;">
+                                <a class="view_more_text">
+                                    View more
+                                </a>
+                            </button>
+                        </div>
+                        <div class="col order-1">
+                            <a class="custom_text" style=" text-decoration: none;">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Pellentesque
+                                congue magna in pharetra rutrum.
+                            </a>
+                            <p></p>
+                            <button class="view_more">
+                                <a class="view_more_text">
+                                    View more
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <footer>
+
+            </footer>
+
+
         </div>
 
     </main>

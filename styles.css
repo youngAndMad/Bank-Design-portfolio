@@ -26,23 +26,133 @@ nav li {
   
 nav a {
     text-decoration: none;
-    color: #333;
-    font-size: 16px;
+    color:#4f4d6a;
+    font-size: 12px;
+    font-family: aria bold;
     font-weight: bold;
 }
 
-.menu_item{
+#id{
+   float: right;
+}
+
+#menu_item{
     color: #4f4d6a;
     font-size: 12px;
     cursor: pointer;
 }
 
-.promo{
-  height: 40%;
+#promo{
+  height: 1000px;
   width: 100%;
   background-image: url("public/promo.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .container{
   flex-direction: row;
+}
+
+
+.check_out{
+    font-size: 72px;
+    font-family: Georgia bold 72px #4f4d6a
+}
+
+.custom_text{
+    color: #4f4d6a;
+    font-size: 15px;
+    font-family:Georgia italic ;
+}
+
+#what_makes_us_so_awasome{
+    margin-left: 264px;
+    font-family:Georgia italic;
+    font-size: 28px;
+    color: #4f4d6a;
+}
+
+.view_more{
+    color: #4f4d6a;
+}
+
+.view_more_text{
+    font-size: 12px;
+    font-family:Georgia bold italic ;
+}
+
+#promo_texts{
+    justify-content: center;
+    text-align: center;
+    margin-top: 10%;
+    font-size: 24px;
+    font-family: Georgia italic;
+    color: #4f4d6a;
+}
+
+#studio_banx{
+    font-family:  Georgia italic ;
+    font-size: 170px; 
+}
+
+#promo_texts_last{
+    font-family: aria bols;
+}
+
+#promo_hr{
+    color: white;
+    height: 12px;
+}
+
+.our_works{
+    background-color: #ebebeb;
+}
+
+#see_our_work{
+    border-color: #4f4d6a;
+    border-radius: 50px;
+    width: 200px;
+    height: 40px;
+    cursor: pointer;
+    background-image: linear-gradient(to bottom,#6d6b89 ,#504e6b);
+}
+
+#meet_the_team{
+    border-color:#937d91;
+    border-radius: 40px;
+    height: 40px;
+    width: 200px;
+    cursor: pointer;
+    background-image: linear-gradient(to bottom,#cdbec7 ,#9e8596);
+}
+#promo_btns{
+    justify-content: center;
+    text-align: center;
+}
+
+#our_works_texts{
+    justify-content: center;
+    text-align: center;
+}
+
+#check_out{
+    font-family: Georgia italic;
+    font-size:24px;
+    color:#4f4d6a;
+}
+
+#our_worx{
+    font-family: Georgia bold;
+    font-size: 72px;
+    color: #4f4d6a;
+}
+
+footer{
+    background-color: #505050;
+}
+
+footer h1,h2,h3,h4,h5 ,h6{
+    font-family: Georgia italic ; 
 }
